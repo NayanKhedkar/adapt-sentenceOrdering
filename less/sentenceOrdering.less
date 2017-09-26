@@ -31,21 +31,26 @@
          word-break: break-word;
          word-break: break-all;
           ul.list li.placeholder, ul.grid li.placeholder {
-            border: dashed 0px #000;/* to add border dashed set 1px*/
+            border: dashed 1px #4b4e4f;/* to add border dashed set 1px*/
             display:inline-block;
             background-color: transparent;
           }
          li{
            position: relative;
            color: @item-text-color;
-           background-color: darken(@item-color, 15%);
+           background-color: @item-color;
            padding:(@item-padding - 10px);
            margin: 0px auto 5px 5px;
+         }
+         .incorrect-resettable{
+          cursor: auto !important;
          }
 
        }
        .no-touch &:hover {
+        li {
          cursor: pointer;
+        }
        }
      }
 
@@ -98,9 +103,11 @@
     }
 
     &.disabled {
-      .draggable-item {
+      .sentence-container {
         .no-touch &:hover {
-          cursor: default;
+          li {
+             cursor: default;
+           }
         }
       }
     }

@@ -1,17 +1,18 @@
 {
-  "name": "adapt-sentenceOrdering",
-  "version": "2.0.0",
-  "framework": "^2.0.0",
-  "authors": [
-    "Nayan Khedkar <khedkarnayan08@gmail.com>"
-  ],
-  "description": "A sentence Ordering question component.",
-  "main": "/js/adapt-sentenceOrdering.js",
-  "displayName" : "Sentence Ordering",
-  "component" : "sentenceOrdering",
-  "keywords": [
-    "adapt-plugin",
-    "adapt-component"
-  ],
-  "license": "GPLv3"
+    "name": "adapt-sentenceOrdering",
+    "repository": "git://github.com/NayanKhedkar/adapt-sentenceOrdering.git",
+    "framework": "^2.0.0",
+    "version": "2.0.0",
+    "authors": [
+        "Nayan Khedkar <khedkarnayan08@gmail.com>"
+    ],
+    "description": "A sentence Ordering question component.",
+    "main": "/js/adapt-sentenceOrdering.js",
+    "displayName": "Sentence Ordering",
+    "component": "sentenceOrdering",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-component"
+    ],
+    "license": "GPLv3"
 }
