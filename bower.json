@@ -4,7 +4,7 @@
     "framework": "^2.0.0",
     "version": "2.0.0",
     "authors": [
-        "Nayan Khedkar <khedkarnayan08@gmail.com>"
+        "Nayan Khedkar <nayan.khedkar@exultcorp.com>"
     ],
     "description": "A sentence Ordering question component.",
     "main": "/js/adapt-sentenceOrdering.js",
