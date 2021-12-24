@@ -1,10 +1,8 @@
-define(function(require) {
-    var Adapt = require('core/js/adapt');
-    var SentenceOrderingModel = require('./sentenceOrderingModel');
-    var SentenceOrderingView = require('./sentenceOrderingView');
+import Adapt from 'core/js/adapt';
+import SentenceOrderingView from './sentenceOrderingView';
+import SentenceOrderingModel from './sentenceOrderingModel';
 
-    return Adapt.register("sentenceOrdering", {
-        view: SentenceOrderingView,
-        model: SentenceOrderingModel
-    });
+export default Adapt.register('sentenceOrdering', {
+    model: SentenceOrderingModel,
+    view: SentenceOrderingView
 });
