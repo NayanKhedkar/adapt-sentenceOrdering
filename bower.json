@@ -1,7 +1,7 @@
 {
     "name": "adapt-sentenceOrdering",
     "repository": "git://github.com/NayanKhedkar/adapt-sentenceOrdering.git",
-    "framework": ">=2.0",
+    "framework": ">=5.0",
     "version": "2.0.0",
     "authors": [
         "Nayan Khedkar <nayan.khedkar@exultcorp.com>"
