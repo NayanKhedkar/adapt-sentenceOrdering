@@ -1,7 +1,7 @@
-.sentenceOrdering-inner{
+.sentenceOrdering__inner{
   resize: both;
   position: relative;
-  .sentenceOrdering-widget {
+  .sentenceOrdering__widget {
       position: relative;
       display: inline-block;
       width: 100%;
@@ -15,7 +15,7 @@
               word-break: break-word;
               word-break: break-all;
                .prefixTitle{
-                   color: @item-text-color;
+                   color: @item-color-inverted;
                    background-color: @item-color;
                    padding:(@item-padding - 10px);
                    margin: 0px auto 5px 5px;
@@ -37,7 +37,7 @@
           }
          li{
            position: relative;
-           color: @item-text-color;
+           color: @item-color-inverted;
            background-color: @item-color;
            padding:(@item-padding - 10px);
            margin: 0px auto 5px 5px;
@@ -65,7 +65,7 @@
     margin-top:-(@icon-size/2);
     z-index:0;
   }
-  .component-widget{
+  .component__widget{
     .sentenceOrdering-item-icon{
       display:none;
     }
