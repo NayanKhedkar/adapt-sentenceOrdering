@@ -1,6 +1,6 @@
-<div class="sentenceOrdering-inner component-inner" role="region" aria-label="{{_globals._components.sentenceOrdering.ariaRegion}}" {{#if _globals._components.sentenceOrdering.ariaRegion}} tabindex="0" {{/if}} data-id="scaleableWrapper">
+<div class="component__inner sentenceOrdering__inner" role="region" aria-label="{{_globals._components.sentenceOrdering.ariaRegion}}" {{#if _globals._components.sentenceOrdering.ariaRegion}} tabindex="0" {{/if}} data-id="scaleableWrapper">
     {{> component this}}
-    <div class="sentenceOrdering-widget component-widget {{#unless _isEnabled}} disabled {{#if _isInteractionComplete}} complete submitted show-user-answer {{#if _isCorrect}}correct{{/if}} {{/if}} {{/unless}}" data-id="innerWrapper" {{#if _shouldScale}} style="width:{{_defaultWidth}}px;"{{/if}}>
+    <div class="sentenceOrdering__widget component__widget {{#unless _isEnabled}} disabled {{#if _isInteractionComplete}} complete submitted show-user-answer {{#if _isCorrect}}correct{{/if}} {{/if}} {{/unless}}" data-id="innerWrapper" {{#if _shouldScale}} style="width:{{_defaultWidth}}px;"{{/if}}>
         <div class="sentenceOrdering-container-inner">
           <div class="container">
                     {{#if _isPrefixTitle}}
@@ -27,5 +27,4 @@
         </div>
     </div>
     <div class="btn__container"></div>
-    </div>
 </div>
